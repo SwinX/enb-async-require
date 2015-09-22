@@ -1,6 +1,6 @@
 {
   "name": "enb-async-require",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Require files in async manner.",
   "keywords": [
     "async",
@@ -36,7 +36,9 @@
   "scripts": {
     "test": "npm run lint && npm run unit-test",
     "lint": "jshint . && jscs .",
-    "unit-test": "istanbul test _mocha --recursive test/lib"
+    "unit-test": "mocha --recursive test/lib",
+    "coverage": "istanbul cover _mocha -- -R dot --recursive test/lib",
+    "coveralls": "npm i coveralls && istanbul cover _mocha -- -R dot --recursive test/lib --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "dependencies": {
     "vow": "^0.4.10"
