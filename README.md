@@ -10,8 +10,8 @@ Usage example:
 var asyncRequire = require('async-require');
 
 function someAsyncFunc () {
-	returm asyncRequire('path/to/file').then(function (module) {
-		   //do stuff with required module here
+	returm asyncRequire('path/to/module').then(function (module) {
+		//do stuff with required module here
 	}
 }
 ```
