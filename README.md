@@ -7,7 +7,7 @@ Require files in async manner.
 Usage example:
 
 ```js
-var asyncRequire = require('async-require');
+var asyncRequire = require('enb-async-require');
 
 function someAsyncFunc () {
 	returm asyncRequire('path/to/module').then(function (module) {
