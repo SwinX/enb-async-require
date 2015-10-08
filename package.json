@@ -1,6 +1,6 @@
 {
   "name": "enb-async-require",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Require files in async manner.",
   "keywords": [
     "async",
