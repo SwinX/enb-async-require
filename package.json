@@ -16,10 +16,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SwinX/enb-async-require"
+    "url": "https://github.com/enb-make/enb-async-require"
   },
-  "homepage": "https://github.com/SwinX/enb-async-require",
-  "bugs": "https://github.com/SwinX/enb-async-require/issues",
+  "homepage": "https://github.com/enb-make/enb-async-require",
+  "bugs": "https://github.com/enb-make/enb-async-require/issues",
   "maintainers": [
     {
       "name": "Ilia Isupov",
