@@ -11,7 +11,7 @@ Usage example:
 var asyncRequire = require('enb-async-require');
 
 function someAsyncFunc () {
-	returm asyncRequire('path/to/module').then(function (module) {
+	return asyncRequire('path/to/module').then(function (module) {
 		//do stuff with required module here
 	}
 }
